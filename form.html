@@ -3,121 +3,72 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="AltSchool Africa application form (practice replica).">
-  <title>Application Form | AltSchool Africa</title>
+  <title>Application Form</title>
 </head>
-<body id="top-of-page">
-  <a href="#main-content">Skip to main content</a>
-
+<body id="top">
   <header>
-    <h1>AltSchool Africa</h1>
     <nav aria-label="Global navigation">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="form.html" aria-current="page">Application Form</a></li>
-      </ul>
+      <a href="index.html">Home</a> |
+      <a href="form.html">Application Form</a>
     </nav>
+    <h1>AltSchool Africa Application</h1>
   </header>
 
-  <main id="main-content">
-    <h2>Sign up or sign in</h2>
-    <p>Start your tech career today. Fields marked with * are required.</p>
-
+  <main>
     <form action="#" method="post">
       <fieldset>
         <legend>Create your account</legend>
 
         <p>
-          <label for="first-name">First name *</label><br>
-          <input type="text" id="first-name" name="firstName" autocomplete="given-name" required>
+          <label for="firstName">First name</label><br>
+          <input type="text" id="firstName" name="firstName" required>
         </p>
 
         <p>
-          <label for="last-name">Last name *</label><br>
-          <input type="text" id="last-name" name="lastName" autocomplete="family-name" required>
+          <label for="lastName">Last name</label><br>
+          <input type="text" id="lastName" name="lastName" required>
         </p>
 
         <p>
-          <label for="email">Email address *</label><br>
-          <input type="email" id="email" name="email" autocomplete="email" placeholder="you@example.com" required>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" autocomplete="email" required>
         </p>
 
         <p>
-          <label for="phone">Phone number *</label><br>
-          <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="+234 800 000 0000" required>
+          <label for="phone">Phone number</label><br>
+          <input type="tel" id="phone" name="phone" required>
         </p>
 
         <p>
-          <label for="gender">Gender</label><br>
-          <select id="gender" name="gender">
-            <option value="">Select gender</option>
-            <option value="female">Female</option>
-            <option value="male">Male</option>
-            <option value="other">Prefer not to say</option>
-          </select>
-        </p>
-
-        <p>
-          <label for="country">Country *</label><br>
-          <select id="country" name="country" required>
-            <option value="">Select country</option>
-            <option value="NG">Nigeria</option>
-            <option value="GH">Ghana</option>
-            <option value="KE">Kenya</option>
-            <option value="ZA">South Africa</option>
-            <option value="OTHER">Other</option>
-          </select>
-        </p>
-
-        <p>
-          <label for="school">Choose a school *</label><br>
+          <label for="school">Choose a school</label><br>
           <select id="school" name="school" required>
-            <option value="">Select school</option>
-            <option value="engineering">School of Engineering</option>
-            <option value="data">School of Data</option>
-            <option value="product">School of Product</option>
-            <option value="cyber">School of Cybersecurity</option>
+            <option value="">Select a school</option>
+            <option value="engineering">Engineering</option>
+            <option value="data">Data</option>
+            <option value="product">Product</option>
           </select>
         </p>
 
         <p>
-          <label for="password">Password *</label><br>
-          <input type="password" id="password" name="password" autocomplete="new-password" minlength="8" aria-describedby="password-hint" required>
-          <br><small id="password-hint">Use at least 8 characters.</small>
-        </p>
-
-        <p>
-          <label for="confirm-password">Confirm password *</label><br>
-          <input type="password" id="confirm-password" name="confirmPassword" autocomplete="new-password" required>
+          <label for="password">Password</label><br>
+          <input type="password" id="password" name="password" minlength="8" required>
         </p>
 
         <p>
           <input type="checkbox" id="terms" name="terms" required>
-          <label for="terms">I agree to the <a href="https://altschoolafrica.com/terms">Terms and Conditions</a> and Privacy Policy *</label>
+          <label for="terms">I agree to the terms and conditions</label>
         </p>
 
-        <p>
-          <input type="checkbox" id="remember" name="remember">
-          <label for="remember">Remember me</label>
-        </p>
-
-        <p>
-          <button type="submit">Create account</button>
-          <button type="reset">Clear form</button>
-        </p>
+        <button type="submit">Submit</button>
       </fieldset>
     </form>
 
-    <p>Already have an account? <a href="https://portal.altschoolafrica.com/auth/signin">Sign in</a></p>
-    <p><a href="#top-of-page">Back to top</a></p>
+    <a href="#top">Back to top</a>
   </main>
 
   <footer>
-    <address>
-      Your Street Address, Your City, Lagos, Nigeria<br>
-      Email: <a href="mailto:you@example.com">you@example.com</a>
-    </address>
-    <p><small>&copy; 2026 YOUR FULL NAME. All rights reserved.</small></p>
+    <address>YOUR STREET, YOUR CITY, Nigeria</address>
+    <p>&copy; 2026 YOUR NAME. All rights reserved.</p>
   </footer>
 </body>
 </html>
