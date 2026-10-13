@@ -1,5 +1,6 @@
-let arr = []
+
 const userInfo=(username,password)=> {
+    let arr= []
     if (username.length < 10) {
         alert("username cannot be less than 10")
         return
@@ -17,4 +18,5 @@ const userInfo=(username,password)=> {
         alert("incorrect password or username")
         return
     }
+    return arr
 }
